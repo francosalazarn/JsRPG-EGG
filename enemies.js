@@ -4,28 +4,30 @@ function enemLoad() {
     console.log('Enemies loaded')
 }
 
-const enemy = {
-    1 : {
+const enemy = [
+    null,
+    {
         'name' : 'finch',
         'attack' : 2,
         'hp' : 10,
         'xpYield' : 5,
     },
-    2 : {
+    {
         'name' : 'snake',
         'attack' : 3,
         'hp' : 20,
         'xpYield' : 10,
     },
     
-    3 : {
+    {
         'name' : 'fox',
         'attack' : 5,
         'hp' : 30,
         'xpYield' : 15,
     }
-}
+]
 
+console.log(enemy[1]['name'])
 
 let rdmEnem = Math.floor(Math.random()*3+1)
 
