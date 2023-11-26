@@ -27,8 +27,6 @@ const enemy = [
     }
 ]
 
-console.log(enemy[1]['name'])
-
 let rdmEnem = Math.floor(Math.random()*3+1)
 
 
