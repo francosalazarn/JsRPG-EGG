@@ -28,8 +28,8 @@ if (ready != 'Y') {
     }
 
     const You = new egg ('You', 10, 3, 1, 0, 10);
-    console.log(You['hp'])
-    console.log(You['lvlup'])
+    //console.log(You['hp'])
+    //console.log(You['lvlup'])
 
     let yourAtkroll = function youAttack () {
         return Math.floor(Math.random()*3+1);
@@ -202,7 +202,6 @@ if (ready != 'Y') {
             stats();
             console.log("Though it may seem like a waste, just surviving is enough of a victory for now.")
         } else {
-            let alive = false;
             alert("Your shell has cracked, your contents ingested. Everyone else is safe.");
             stats();
             console.log("Let this be a reminder, some things are not meant to see the light of day.")
