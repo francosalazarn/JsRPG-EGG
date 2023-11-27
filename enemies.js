@@ -27,17 +27,7 @@ const enemy = [
     }
 ]
 
-let rdmEnem = Math.floor(Math.random()*3+1)
 
-
-class enemEcounter {
-    constructor ( name, attack, hp, xpYield ) {
-        this.name = enemy[rdmEnem]['name'];
-        this.attack = enemy[rdmEnem]['attack'];
-        this.hp = enemy[rdmEnem]['hp'];
-        this.xpYield = enemy[rdmEnem]['xpYield'];
-    }
-}
 
 let enemAtkroll = function enemAttack () {
     return Math.floor(Math.random()*3+1);
@@ -57,6 +47,6 @@ let enemScareroll = function enemScare () {
 
 let enemScre = enemScareroll ()
 
-const activEnemy = new enemEcounter ()
+
 
 //console.log(activEnemy)
